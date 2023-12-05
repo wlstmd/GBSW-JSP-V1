@@ -11,7 +11,7 @@
 </head>
 <body>
 	<header>
-		<img class="img" src="./images/danngn.png" alt="img"/>
+		<a href="https://www.daangn.com/"><img class="img" src="./images/danngn.png" alt="img"/></a>
 		<nav>
 			<ul>
 				<li><a href="/JSP_PJT/popular">인기매물 불러오기</a></li>

@@ -20,16 +20,21 @@ body {
 	padding: 0;
 }
 
+.img {
+	margin: 10px 10px;
+	width: 100px;
+	height: 100px;
+}
+
 header {
 	display: inline-flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content:space-around;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100px;
-	position: fixed;
-	background-color: cyan;
+	background-color: orange;
 	z-index: 1000;
 }
 
@@ -38,6 +43,8 @@ header ul li{
 	margin: 10px 15px;
 	padding: 0;
 	font-size: 2rem;
+	font-weight: bold;
+	color: white;
 }
 
 header ul li:hover {
@@ -83,4 +90,63 @@ h1 {
 	width: 80rem;
 	text-align: center;
 	font-size: 2rem;
+}
+
+footer {
+  display: inline-flex;
+  margin-top: 10rem;
+  width: 100%;
+  height: 270px;
+  background-color: orange;
+}
+
+footer .footer-des {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+footer .img img {
+  margin-left: 10rem;
+  margin-top: 2rem;
+  width: 200px;
+  filter: opacity(0.5) drop-shadow(0 0 0 skyblue);
+}
+
+footer .footer-title {
+  margin-top: 3.5rem;
+  margin:auto;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.4rem;
+}
+
+footer .footer-copyright {
+  font-size: 1.4rem;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-flex;
+  list-style: none;
+  margin: 10px 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+footer ul li:hover {
+  cursor: pointer;
+}
+
+footer .footer-contact {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.2rem;
+	margin: 7px 7px;
 }

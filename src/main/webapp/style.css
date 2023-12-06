@@ -47,6 +47,10 @@ header ul li{
 	color: white;
 }
 
+header .img {
+	cursor: pointer;
+}
+
 header ul li:hover {
 	cursor: pointer;
 }
